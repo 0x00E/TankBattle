@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xkzjsj.java07.tb.view.GameWindowController">
+   <children>
+      <Button layoutX="250.0" layoutY="106.0" mnemonicParsing="false" onAction="#singleplayer" prefHeight="50.0" prefWidth="500.0" text="单人游戏">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+      <Button layoutX="250.0" layoutY="225.0" mnemonicParsing="false" onAction="#multiplayer" prefHeight="50.0" prefWidth="500.0" text="多人游戏">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+      <Button layoutX="550.0" layoutY="356.0" mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="200.0" text="退出游戏">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+      <Button layoutX="250.0" layoutY="356.0" mnemonicParsing="false" onAction="#option" prefHeight="50.0" prefWidth="200.0" text="选项">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="353.0" layoutY="14.0" prefHeight="56.0" prefWidth="295.0" text="坦克大战 TankBattle">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="270.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../TankWar/img/tank_left.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="678.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../TankWar/img/tank_right.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

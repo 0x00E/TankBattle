@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.2991967871485944, 0.6004016064257028, 0.8473895582329317" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xkzjsj.java07.tb.view.OptionController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label layoutX="438.0" layoutY="14.0" prefHeight="56.0" prefWidth="123.0" text="游戏选项">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="30.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="75.0" layoutY="66.0" prefWidth="150.0" />
+            <Label layoutX="15.0" layoutY="70.0" text="难易度：" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label layoutX="15.0" layoutY="70.0" text="界面风格：" />
+            <ComboBox layoutX="75.0" layoutY="66.0" prefWidth="150.0" />
+            <Label layoutX="438.0" layoutY="14.0" prefHeight="56.0" prefWidth="123.0" text="界面选项">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label layoutX="438.0" layoutY="14.0" prefHeight="56.0" prefWidth="123.0" text="其他选项">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Pane prefHeight="60.0" prefWidth="998.0">
+         <children>
+            <Button layoutX="120.0" layoutY="25.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="200.0" text="确定" />
+            <Button layoutX="680.0" layoutY="25.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="200.0" text="取消" />
+         </children>
+      </Pane>
+  </items>
+</SplitPane>
